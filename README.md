@@ -1,16 +1,29 @@
-# React + Vite
+# 🏥 Hospital Management System - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** of the Hospital Management System project.  
+It is a **React + Vite application**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 How to Run
 
-## React Compiler
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/BhanuVignesh2300033284/hospital-frontend.git
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Navigate to the project directory
+   ```bash
+     cd hospital-frontend
+3. Install dependencies
+    ```bash
+    npm install
+4. Run the development server
+   ```bash
+   npm run dev
+5. Access the frontend
+http://localhost:5173
 
-## Expanding the ESLint configuration
+⚙️ Notes
+The frontend consumes backend APIs at: http://localhost:8081/auth/signup and /auth/login.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Make sure the backend is running before using the frontend.
